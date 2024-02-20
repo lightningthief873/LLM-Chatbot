@@ -21,11 +21,17 @@ The base technology used is Pytorch library integrated with Cuda and Python as t
 ## Steps to run the Chatbot on a local machine:
 
 Step 1: Install Python 3.10+.
+
 Step 2: Install CUDA from the documentation from this link and connect to Python and Pytorch: https://www.freecodecamp.org/news/how-to-setup-windows-machine-for-ml-dl-using-nvidia-graphics-card-cuda/
+
 Step 3: The current code is given for Google collab in both, model_6.py file as well as model_6.ipynb file. Remove unnecessary lines which you don't require. (I have tried my best to remove unnecessary code from the .py file, but the Jupyter notebook is for sole Colab purposes, but in case some further developments are to be made.
+
 Step 4: In place of the Anakin/Zepher model name, give the path of the model folder. If you want to change the model, download your model and place it in that folder.
+
 Step 5: Do the same for the translation model. Both models are available on the Huggingface repository. The full names of the models used are: a) anakin87/zephyr-7b-alpha-sharded b) Helsinki-NLP/opus-mt-en-es c) sentence-transformers/all-mpnet-base-v2.
+
 Step 6: Define your own app.py file for connection to the front end. Though a rudimentary file is given, it is advised to make changes.
+
 Step 7: Change the index.html file for UI.
 
 ## Functions to remove from the model_6.py file. 
