@@ -28,7 +28,13 @@ Step 3: The current code is given for Google collab in both, model_6.py file as 
 
 Step 4: In place of the Anakin/Zepher model name, give the path of the model folder. If you want to change the model, download your model and place it in that folder.
 
-Step 5: Do the same for the translation model. Both models are available on the Huggingface repository. The full names of the models used are: a) anakin87/zephyr-7b-alpha-sharded b) Helsinki-NLP/opus-mt-en-es c) sentence-transformers/all-mpnet-base-v2.
+Step 5: Do the same for the translation model. Both models are available on the Huggingface repository. The full names of the models used are: 
+
+a) anakin87/zephyr-7b-alpha-sharded (Download Link: https://huggingface.co/anakin87/zephyr-7b-alpha-sharded/tree/main) (Download All files)
+
+b) Helsinki-NLP/opus-mt-en-es (Download Link: https://huggingface.co/Helsinki-NLP/opus-mt-es-en/tree/main)
+
+c) sentence-transformers/all-mpnet-base-v2.
 
 Step 6: Define your own app.py file for connection to the front end. Though a rudimentary file is given, it is advised to make changes.
 
